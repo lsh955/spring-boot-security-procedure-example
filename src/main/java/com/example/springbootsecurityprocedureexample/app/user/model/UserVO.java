@@ -1,16 +1,13 @@
 package com.example.springbootsecurityprocedureexample.app.user.model;
 
 import com.example.springbootsecurityprocedureexample.app.common.model.CommonVO;
+import com.example.springbootsecurityprocedureexample.enums.UserRole;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.annotations.Table;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
+import javax.persistence.*;
 import java.io.Serializable;
 
 /**
