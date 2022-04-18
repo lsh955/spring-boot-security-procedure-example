@@ -1,6 +1,6 @@
 package com.example.springbootsecurityprocedureexample.config.security;
 
-import com.example.springbootsecurityprocedureexample.app.UserDetailsVO;
+import com.example.springbootsecurityprocedureexample.app.model.UserDetailsVO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;

@@ -1,4 +1,4 @@
-package com.example.springbootsecurityprocedureexample.app;
+package com.example.springbootsecurityprocedureexample.app.model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
