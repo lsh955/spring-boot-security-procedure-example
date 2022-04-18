@@ -11,4 +11,18 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImpl implements UserService {
 
+    @Override
+    public UserVO login(UserVO userVO) {
+        return null;
+    }
+
+    @Override
+    public UserVO createUser(UserVO userVO) {
+        return null;
+    }
+
+    @Override
+    public UserVO findUserByUserEmail(String userEmail) {
+        return null;
+    }
 }
