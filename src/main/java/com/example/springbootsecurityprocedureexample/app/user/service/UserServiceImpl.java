@@ -1,4 +1,4 @@
-package com.example.springbootsecurityprocedureexample.app.service;
+package com.example.springbootsecurityprocedureexample.app.user.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

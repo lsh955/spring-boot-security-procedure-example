@@ -1,4 +1,4 @@
-package com.example.springbootsecurityprocedureexample.app.service;
+package com.example.springbootsecurityprocedureexample.app.user.service;
 
 /**
  * @author 이승환
