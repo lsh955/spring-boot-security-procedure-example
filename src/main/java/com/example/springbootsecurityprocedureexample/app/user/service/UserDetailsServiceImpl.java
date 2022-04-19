@@ -13,6 +13,9 @@ import java.util.Collections;
 /**
  * @author 이승환
  * @since 2022-04-18
+ * <p>
+ * AuthenticationProvider 에서 아이디를 조회하였다면,
+ * UserDetailsService로 부터 아이디를 기반으로 데이터를 조회하는 구간
  */
 @RequiredArgsConstructor
 @Service
