@@ -34,7 +34,7 @@ public class UserVO extends CommonVO implements Serializable {
     private UserRole role;
 
     @Builder
-    public UserVO(String userEmail, String userPw){
+    public UserVO(String userEmail, String userPw) {
         this.userEmail = userEmail;
         this.userPw = userPw;
     }
