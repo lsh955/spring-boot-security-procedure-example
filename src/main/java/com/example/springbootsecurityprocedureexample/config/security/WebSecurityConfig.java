@@ -56,6 +56,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder() {
+        // BCrypt 해싱함수
         return new BCryptPasswordEncoder();
     }
 
